@@ -2,6 +2,7 @@ name: Commit date to master
 on:
   schedule:
     - cron: "*/1 * * * *"
+  workflow_dispatch:
 jobs:
   date:
     runs-on: ubuntu-latest
