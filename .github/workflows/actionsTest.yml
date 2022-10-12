@@ -1,4 +1,4 @@
-name: Commit date to master
+name: actionsTest
 on:
   schedule:
     - cron: "*/5 * * * *"
